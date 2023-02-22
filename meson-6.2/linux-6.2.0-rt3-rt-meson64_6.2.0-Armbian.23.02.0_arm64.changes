@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Wed, 22 Feb 2023 07:18:57 +0000
+Source: linux-6.2.0-rt3-rt-meson64
+Binary: linux-dtb-edge-meson64 linux-headers-edge-meson64 linux-image-edge-meson64 linux-libc-dev
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 6.2.0-Armbian.23.02.0
+Distribution: jammy
+Urgency: low
+Maintainer: Igor Pecovnik <igor.pecovnik@****l.com>
+Changed-By: Igor Pecovnik <igor.pecovnik@****l.com>
+Description:
+ linux-dtb-edge-meson64 - Armbian Linux DTB, version 6.2.0-rt3-rt-meson64 edge
+ linux-headers-edge-meson64 - Linux kernel headers for 6.2.0-rt3-rt-meson64 on arm64 edge
+ linux-image-edge-meson64 - Linux kernel, armbian version 6.2.0-rt3-rt-meson64 edge
+ linux-libc-dev - Armbian Linux support headers for userspace development
+Changes:
+ linux-6.2.0-rt3-rt-meson64 (6.2.0-Armbian.23.02.0) jammy; urgency=low
+ .
+   * Armbian built Linux kernel. edge
+Checksums-Sha1:
+ 8b8b2380f4bda3ec0a38e494a0246e8ce0dc092f 6741 linux-6.2.0-rt3-rt-meson64_6.2.0-Armbian.23.02.0_arm64.buildinfo
+ 80decf75fbb4b9f9a1b889b1f337be97b63afb79 137624 linux-dtb-edge-meson64_6.2.0-Armbian.23.02.0_arm64.deb
+ 07ebb285c361a30bba84eb4537688c81d37c15cb 12683996 linux-headers-edge-meson64_6.2.0-Armbian.23.02.0_arm64.deb
+ 2177300cdb2c8182f7d827b3fd1eef0d6ff7c6bb 55142492 linux-image-edge-meson64_6.2.0-Armbian.23.02.0_arm64.deb
+ 7525402e8c638d97974a3ed5f08ed15de3cc2998 1261632 linux-libc-dev_6.2.0-Armbian.23.02.0_arm64.deb
+Checksums-Sha256:
+ 9987a31ce3af007f8c99c1546934360a30338a869328dfc1b301b20a3996885e 6741 linux-6.2.0-rt3-rt-meson64_6.2.0-Armbian.23.02.0_arm64.buildinfo
+ c37fb2c6504690c9066c938ec0985373604cc8f5f502dd246f90de7d81414042 137624 linux-dtb-edge-meson64_6.2.0-Armbian.23.02.0_arm64.deb
+ 208329d18af81ca4d4e9b13c101b5ad14bc7bef7b093e3724a634d967d2063ea 12683996 linux-headers-edge-meson64_6.2.0-Armbian.23.02.0_arm64.deb
+ 800bed4457921860adb6646d393c8073fa987fa11f45de95343bfe049af99b2c 55142492 linux-image-edge-meson64_6.2.0-Armbian.23.02.0_arm64.deb
+ 9438e6bcbd724adab0d92d59e7e9ec9e16a3b6839e88820c7f6edeb01ae5ffa2 1261632 linux-libc-dev_6.2.0-Armbian.23.02.0_arm64.deb
+Files:
+ ef5686ba2c0abf1952b3d4ad91babc23 6741 kernel optional linux-6.2.0-rt3-rt-meson64_6.2.0-Armbian.23.02.0_arm64.buildinfo
+ 667f8df6c434f753afbfecd99864b266 137624 kernel optional linux-dtb-edge-meson64_6.2.0-Armbian.23.02.0_arm64.deb
+ 66846d16a85ae32b0ba3b932e13f1bb1 12683996 devel optional linux-headers-edge-meson64_6.2.0-Armbian.23.02.0_arm64.deb
+ e766bc2ba402c70a7282258e8d4d6cdf 55142492 kernel optional linux-image-edge-meson64_6.2.0-Armbian.23.02.0_arm64.deb
+ 241b25e6eff6e0f1381b6068aa95b3d9 1261632 devel optional linux-libc-dev_6.2.0-Armbian.23.02.0_arm64.deb
