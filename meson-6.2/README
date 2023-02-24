@@ -1,0 +1,10 @@
+Additional information
+
+Documentation/scheduler/sched-bwc.rst
+Documentation/scheduler/sched-rt-group.rst
+https://www.linuxjournal.com/article/3910
+https://packages.debian.org/testing/devel/rtla
+https://docs.kernel.org/tools/rtla/index.html
+
+Additional system configuration may be required
+/etc/security/limits.d/99-realtime.conf
