@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Sun, 19 Mar 2023 16:24:18 +0000
+Source: linux-6.2.7-rt3.1-meson64
+Binary: linux-dtb-edge-meson64 linux-headers-edge-meson64 linux-image-edge-meson64 linux-libc-dev
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 6.2.7-rt3.1-meson64-Armbian.23.03
+Distribution: jammy
+Urgency: low
+Maintainer: Igor Pecovnik <igor.pecovnik@****l.com>
+Changed-By: Igor Pecovnik <igor.pecovnik@****l.com>
+Description:
+ linux-dtb-edge-meson64 - Armbian Linux DTB, version 6.2.7-rt3.1-meson64 edge-meson64
+ linux-headers-edge-meson64 - Linux kernel headers for 6.2.7-rt3.1-meson64 on arm64 edge-meson6
+ linux-image-edge-meson64 - Linux kernel, armbian version 6.2.7-rt3.1-meson64 edge-meson64
+ linux-libc-dev - Armbian Linux support headers for userspace development
+Changes:
+ linux-6.2.7-rt3.1-meson64 (6.2.7-rt3.1-meson64-Armbian.23.03) jammy; urgency=low
+ .
+   * Armbian built Linux kernel. edge-meson64
+Checksums-Sha1:
+ c1948bf89860d49165c1c3d6571e9d7297f91727 6925 linux-6.2.7-rt3.1-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.buildinfo
+ 515cfc752c5e2748382bb76db7fa2fb2c3539600 137612 linux-dtb-edge-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+ 85ec9f07c62c60065da2f8b94b1a6e80c27631bc 12694484 linux-headers-edge-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+ f40cb35814406c5b94b19e97866523b8e2eb4baa 54714556 linux-image-edge-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+ e28ecd35ee7c7b2e6f1f2a9900d3235df35341ce 1261804 linux-libc-dev_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+Checksums-Sha256:
+ 39260f8b5588ff38828a139b9590c4467ceb45cc93fac4dcb311d31e4f33e27d 6925 linux-6.2.7-rt3.1-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.buildinfo
+ ebfbf1b487b86bb6e19fdb4955855a8c48f2f84559a47ac863609bf0acb5068d 137612 linux-dtb-edge-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+ fbfb2bdf8eb5b2b9ce3e9da64fc64920e10fef5cf7d13711343a11e154c1763c 12694484 linux-headers-edge-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+ 302a8a9a87fad506c75b0a02b2adba19e1d21697079e8904b1889fdd5207fde4 54714556 linux-image-edge-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+ 470722a7257c631b9cbb7c953103d144e2afc53be88b300fccb092ba5a30f237 1261804 linux-libc-dev_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+Files:
+ cd8164fbd01312a9acfa703b2ba6f264 6925 kernel optional linux-6.2.7-rt3.1-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.buildinfo
+ 86b4557dacc3e6ca53b3dd2d4da21c64 137612 kernel optional linux-dtb-edge-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+ c36c29172adca42621142eb2beaa5a53 12694484 devel optional linux-headers-edge-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+ 3cad00f162ab824834b3f1bd42c1b075 54714556 kernel optional linux-image-edge-meson64_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
+ 269804951b267950a33f6f8e16819a06 1261804 devel optional linux-libc-dev_6.2.7-rt3.1-meson64-Armbian.23.03_arm64.deb
